@@ -3,4 +3,4 @@
 node garbage_collection.js
 ```
 
-![Alt text](images/image.png)
+![Alt text](images/ezgif.com-video-to-gif.gif)
