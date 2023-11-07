@@ -70,7 +70,7 @@ const mark = () => {
         // add all the reachable objects from the current object
         // reachables array
         for (let i in current) {
-            if (typeof current[i] === 'object') {
+            if (current !== null && typeof current[i] === 'object') {
             // Add it to the reachables
             reachables.push(current[i]);
           }
@@ -78,7 +78,6 @@ const mark = () => {
       }
     }
   }
-
 
 
 // Traverse the heap and move all unmarked or unreachable objects to the free list.
