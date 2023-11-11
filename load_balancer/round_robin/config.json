@@ -1,0 +1,19 @@
+{
+  "proxy": {
+    "port": "8080"
+  },
+  "backends": [
+    {
+      "url": "https://www.google.com"
+    },
+    {
+      "url": "https://www.bing.com"
+    },
+    {
+      "url": "https://www.facebook.com"
+    },
+    {
+      "url": "https://www.youtube.com"
+    }
+  ]
+}
